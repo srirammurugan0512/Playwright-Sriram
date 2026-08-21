@@ -16,5 +16,5 @@ test('flipkart Amazon', async ({browser}) => {
     await page.goto('https://www.amazon.com/');
     await page.waitForLoadState('domcontentloaded');
     await page.goBack();
-    await page.url();
+    // await page.url();
 });
