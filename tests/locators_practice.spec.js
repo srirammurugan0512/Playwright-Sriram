@@ -13,3 +13,5 @@ test('Demo test page', async ({ page }) => {
     await page.waitForTimeout(5000); // Wait for 5 seconds to ensure the page has loaded
     await page.screenshot({ path: '.screenshots/demotaskscreenshot.png' });
 });
+
+// just added this comment to check whether latest code is updated in git.
