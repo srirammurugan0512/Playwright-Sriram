@@ -17,6 +17,4 @@ test('flipkart Amazon', async ({browser}) => {
     await page.waitForLoadState('domcontentloaded');
     await page.goBack();
     await page.url();
-    const currentUrl = page.url();
-    console.log(currentUrl);
 });
