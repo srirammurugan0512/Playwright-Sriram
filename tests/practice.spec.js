@@ -13,7 +13,8 @@ test('flipkart Amazon', async ({browser}) => {
     });
     const page = await context.newPage();
     await page.goto('https://www.flipkart.com/');
+    await page.goto('https://www.amazon.com/');
     await page.waitForLoadState('domcontentloaded');
     await page.goBack();
-    await page.url();
+    // await page.url();
 });
